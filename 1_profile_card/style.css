@@ -41,7 +41,7 @@ body {
     align-items: center;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    padding-top: 15px;
+    padding-top: 25px;
     font-size: 16px;
 }
 
@@ -49,10 +49,8 @@ body {
     font-size: 24px;
     font-weight: 600;
     font-family: "Poppins";
-    margin-bottom: 5px;
 }
 
-.bottom-2,
 .bottom-3,
 .bottom-4,
 .bottom-5 {
@@ -61,10 +59,40 @@ body {
 }
 
 .bottom-2{
+    margin-bottom: 25px;
     font-weight: 500px;
 }
 
-.bottom-3
+.bottom-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.media{
+    height: 36px;
+    width: 36px;
+    background-color: rgb(64, 116, 237);
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+#f{
+    background-color: rgb(64, 102, 173);   
+}
+#t{
+    background-color: rgb(28, 159, 235);
+}
+#i{
+    background-color: rgb(230, 48, 106);
+}
+#y{
+    background-color: rgb(242, 0, 0);
+}
 
 .bottom-4 {
     display: grid;
@@ -73,11 +101,16 @@ body {
 
 .bottom-4 button{
     font-size: 16px;
+    font-weight: 700px;
     background-color: rgb(64, 116, 237);
     border: none;
     border-radius: 20px;
     height: 35px;
     width: 100px;
+    color: white;
+}
+.bottom-4 button:hover{
+    background-color: #1249db;
 }
 .but1{
     margin-right: 10px;

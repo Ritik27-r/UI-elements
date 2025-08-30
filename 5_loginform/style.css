@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('back.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
+    height: 50%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.form>.foot {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form > .foot > form{
+    display: grid;
+    grid-template-rows: 2fr 2fr 5fr;
+    width: 100%;
+}
+.form > .foot > form > .row {
+    margin: 15px;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+.row > i{
+    height: 100%;
+    width: 20%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+}
+.row > input{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.01);
+    padding-left: 10px;
+    font-size: 16px;
+}
+.row > input::placeholder{
+    color: rgb(176, 213, 252);
+}
+
+.foot-notlast{
+    padding: 20px;
+}
+.foot-notlast > input {
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(176, 213, 252);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.foot-notlast > .pass{
+    padding-bottom: 20px;
+}
+.foot-notlast > .pass a{ 
+    text-decoration: none;
+    color: rgb(176, 213, 252);
+}
+.pass a:hover{
+    color: yellow;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.last > .text{
+    padding-right: 15px;
+}
+.last > .hyper{
+    padding-left: 15px
+}
+.last > .hyper a{
+    text-decoration: none;
+    color: rgb(176, 213, 252);
+}
+.hyper a:hover{
+    color: yellow;
+}
